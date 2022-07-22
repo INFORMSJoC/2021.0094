@@ -72,14 +72,13 @@ The code files involve two main parts.
 ### Steps to implement the code
 * Adjust the path of libraries ilcplex.h and ilocplex.h in the project as the default path in your PC
 * Add linkers and CPLEX libraries to the correct position
-* Change the path of input data, involving the number of arriving passengers and alighting passengers in folder [data](data)
+* Change the path of input data and output, involving the number of arriving passengers and alighting passengers in folder [data](data)
+* Keep the basic parameters correct. In particular, make sure that the number of scenarios, number of stations and number of time units from the input data are the same as those in the project
+* Select an option to solve the model by choosing one function, with CPLEX, LSM or ILM
+* Compile and build the project in Visual Studio (2017 recommended)
+* Run the project and save the results.
 
 ## Ongoing Development
 
 This code is being developed on an on-going basis at the author's
-[Github site](https://github.com/tkralphs/JoCTemplate).
-
-## Support
-
-For support in using this software, submit an
-[issue](https://github.com/tkralphs/JoCTemplate/issues/new).
+[Github site](https://github.com/JerryYINJIATENG).
