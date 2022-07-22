@@ -65,8 +65,8 @@ The folder [data](data) contains all the parameters and samples used in our expe
 
 The code files involve two main parts.
 
-##### data generation
-The codes in [Data_generation](Data_generation)
+* data generation: The codes in [Data_Generation](scripts/Data_Generation) are used for randomly generating data samples in the experiments. Specifically, parameters, such as the number of scenarios, number of stations and number of time units, can be adjusted following the specific requirment of the user. The [data](data) were randomly generated using the files in this folder.
+* model construction and resolution: The codes in [scr](src) are used for constructing the two-stage stochastic integer model, with the help of a space-time network class. Some basic parameters, such as the number of existing trains, their allocations, train capacity, investment cost, section running time, dwelling time, can be adjusted according to the practical requirment of the user. In the mainfile, the function "solver_space_time_backup_integer_multi_scenario_new" is the function that directly solves the mathematical formulation with CPLEX. Two other functions, "benders_decomposition" and "L_METHOD_benders_decomposition" are the functions that are used in LSM and ILM. In the implementations, after the setting of basic parameters and construction of the space-time network, the user can choose one of these options to run the model and save the results.
 
 
 ### Steps to implement the code
