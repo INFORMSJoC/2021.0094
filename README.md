@@ -44,7 +44,7 @@ For these experiments, the following requirments should be satisfied
 * CPLEX 12.80 Academic version.
 
 ## Results
-The results for each instance, involving the fleet size of rolling stocks, ATT (unit: second), value of objective function, CPU time and optimality gap, are involved in [results](results) by "NO BRS", "Randomly solution", "LSM" and "ILM", as presented in Table 11.
+The results for each instance, involving the fleet size of rolling stocks, ATT (unit: second), value of objective function, CPU time and optimality gap, are involved in [results](results) by "NO BRS", "Randomly solution", "LSM" and "ILM", as presented in Table 11 in the paper.
 
 ## Replicating
 
