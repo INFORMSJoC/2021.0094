@@ -1,4 +1,4 @@
-# Data for replication the experiments in TARP
+# Data for replication the experiments in BARP
 
 The folder data contains all the parameters and samples used in our experiments.
 
