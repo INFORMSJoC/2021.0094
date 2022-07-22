@@ -23,7 +23,7 @@ To cite this software, please cite the [paper](https://doi.org/10.1287/ijoc.2019
 Below is the BibTex for citing this version of the code.
 
 ```
-@article{Integrated Backup Rolling Stock Allocation and Timetable Rescheduling with Uncertain Time-Variant Passenger Demand Under Disruptive Events,
+@article{BARP,
   author =        {Jiateng Yin, Lixing Yang, D'Ariano Andrea, Tao Tang, Ziyou Gao},
   publisher =     {INFORMS Journal on Computing},
   title =         {{Integrated Backup Rolling Stock Allocation and Timetable Rescheduling with Uncertain Time-Variant Passenger Demand Under Disruptive Events} Version v1.0},
@@ -44,28 +44,22 @@ For these experiments, the following requirments should be satisfied
 * at least 8 GB RAM.
 
 ## Results
-The results are presented in [results](results).
+The results for each instance, involving the fleet size of rolling stocks, ATT (unit: second), value of objective function, CPU time and optamality gap, are presented in [results](results) by "NO BRS", "Randomly solution", "LSM" and "ILM".
 
 ## Replicating
 
-To replicate the results in [Figure 1](results/mult-test), do either
+To replicate the results in [results](results), please follow the instructions below.
 
-```
-make mult-test
-```
-or
-```
-python test.py mult
-```
-To replicate the results in [Figure 2](results/sum-test), do either
+### Contents of this repository
 
-```
-make sum-test
-```
-or
-```
-python test.py sum
-```
+#### data files
+
+#### code files
+
+### Steps to implement the code
+* Adjust the path of libraries ilcplex.h and ilocplex.h in the project as the default path in your PC
+* Add linkers and CPLEX libraries to the correct position
+* Change the path of input data, involving the number of arriving passengers and alighting passengers in folder [data](data)
 
 ## Ongoing Development
 
