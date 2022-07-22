@@ -26,10 +26,10 @@ Below is the BibTex for citing this version of the code.
 
 ```
 @article{CacheTest,
-  author =        {T. Ralphs},
+  author =        {Jiateng Yin, Lixing Yang, D'Ariano Andrea, Tao Tang, Ziyou Gao},
   publisher =     {INFORMS Journal on Computing},
   title =         {{Integrated Backup Rolling Stock Allocation and Timetable Rescheduling with Uncertain Time-Variant Passenger Demand Under Disruptive Events} Version v1.0},
-  year =          {2020},
+  year =          {2022},
   doi =           {10.5281/zenodo.3977566},
   url =           {https://github.com/INFORMSJoC/JoCTemplate},
 }  
@@ -37,7 +37,14 @@ Below is the BibTex for citing this version of the code.
 
 ## Description
 
-The goal of this software is to demonstrate the effect of cache optimization.
+This repository includes the computational results, source codes and source data (with no conflict of interest) for the experiments presented in the paper. 
+
+## Requirements
+For these experiments, the following requirments should be satisfied
+* C++ run on Windows (SDK higher than 10.0.150630.0)
+* CPLEX 12.80 Acamidic version
+* at least 8 GB RAM.
+
 
 ## Building
 
