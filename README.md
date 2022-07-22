@@ -41,7 +41,7 @@ This repository includes the computational results, source codes and source data
 For these experiments, the following requirments should be satisfied
 * C++ run on Windows 10 (with SDK higher than 10.0.150630.0)
 * CPLEX 12.80 Acamidic version
-* at least 8 GB RAM.
+* a PC with at least 16 GB RAM.
 
 ## Results
 The results for each instance, involving the fleet size of rolling stocks, ATT (unit: second), value of objective function, CPU time and optamality gap, are presented in [results](results) by "NO BRS", "Randomly solution", "LSM" and "ILM", as presented in Table 11.
