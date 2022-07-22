@@ -38,7 +38,7 @@ Below is the BibTex for citing this version of the code.
 This repository includes the computational results, source codes and source data (with no conflict of interest) for the experiments presented in the paper. 
 
 ## Requirements
-For these experiments, the following requirments should be satisfied
+For these experiments, the following requirements should be satisfied
 * a PC with at least 16 GB RAM
 * C++ run on Windows 10 (with SDK higher than 10.0.150630.0)
 * CPLEX 12.80 Academic version.
