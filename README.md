@@ -44,7 +44,7 @@ For these experiments, the following requirments should be satisfied
 * at least 8 GB RAM.
 
 ## Results
-The results for each instance, involving the fleet size of rolling stocks, ATT (unit: second), value of objective function, CPU time and optamality gap, are presented in [results](results) by "NO BRS", "Randomly solution", "LSM" and "ILM".
+The results for each instance, involving the fleet size of rolling stocks, ATT (unit: second), value of objective function, CPU time and optamality gap, are presented in [results](results) by "NO BRS", "Randomly solution", "LSM" and "ILM", as presented in Table 11.
 
 ## Replicating
 
@@ -59,8 +59,15 @@ The folder [data](data) contains all the parameters and samples used in our expe
 * The data contains five groups. Each group has two .csv files. In each group, the first file [Output_Passenger_Board](data/R10-1440-720/Output_Passenger_Board) specifies the dynamic passenger arriving volumes at each station for each stochastic scenario. The second file [Output_Passenger_Alight](data/R10-1440-720/Output_Passenger_Alight) specifics the cumulative volume of alighting passengers at each station for each stochastic scenario. In addition, some other related parameters are also listed in the data set.
 * In each file [Output_Passenger_Board](data/R10-1440-720/Output_Passenger_Board), the first row reports some basic parameter settings, involving the investment cost, number of time units, and instance type. The second row reports the index of stations, from station 1 to station 26. The following rows present the detailed passenger arriving data, from the first scenario to the last scenario. In each scenario, the passenger related data are grouped into blocks. In each block, the first column indicates the index of time units, while each element in the other columns represents the passenger arrival rate at one specific station on each time unit. Notice that each block contains the passenger arriving data in one scenario. For example, the data from row 4 to row 723 represent scenario 0.
 * In each file [Output_Passenger_Alight](data/R10-1440-720/Output_Passenger_Alight), the basic settings are the same as those in [Output_Passenger_Board](data/R10-1440-720/Output_Passenger_Board). Differently, each element in this file represents the cumulative volume of alighting passengers (i.e., $\alpha_{it}^w$) in our model.
-* 
+
+
 #### code files
+
+The code files involve two main parts.
+
+##### data generation
+The codes in [Data_generation](Data_generation)
+
 
 ### Steps to implement the code
 * Adjust the path of libraries ilcplex.h and ilocplex.h in the project as the default path in your PC
