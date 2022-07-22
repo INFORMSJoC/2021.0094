@@ -28,7 +28,7 @@ Below is the BibTex for citing this version of the code.
 @article{CacheTest,
   author =        {T. Ralphs},
   publisher =     {INFORMS Journal on Computing},
-  title =         {{CacheTest} Version v1.0},
+  title =         {{Integrated Backup Rolling Stock Allocation and Timetable Rescheduling with Uncertain Time-Variant Passenger Demand Under Disruptive Events} Version v1.0},
   year =          {2020},
   doi =           {10.5281/zenodo.3977566},
   url =           {https://github.com/INFORMSJoC/JoCTemplate},
