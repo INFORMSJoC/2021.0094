@@ -1,0 +1,8 @@
+Number of Scenarios = 10, Investment Cost = 500000, Number of time units = 720, Instance Type = Randomly Generated Instances,,
+,,,,,
+Results,,,,,
+,Fleet size of BRS,ATT (s),Objective value (¡Á10^7),CPU time (s),Gap
+No BRS,0,4088.5,4.36,~,~
+Randomly solution,9,3788.5,4.49,~,~
+LSM,~,~,~,~,~
+ILM,3,3872.8,4.28,7200,8.63%
